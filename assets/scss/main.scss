@@ -1,0 +1,15 @@
+/* -- Focus marker killer -- */
+@mixin focus-killer {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+button:focus {
+    @include focus-killer();
+}
+
+input:focus {
+    @include focus-killer();
+}
+/* -- Focus marker killer end -- */

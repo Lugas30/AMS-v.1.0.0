@@ -1,0 +1,76 @@
+/* -- Blue Button -- */
+
+.btn-blue {
+  background-color: var(--blue);
+  transition: ease-out 0.3s;
+  font-family: var(--font2);
+  letter-spacing: 2px;
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  width: 180px;
+}
+
+.btn-blue:hover {
+  background-color: var(--blue-dk);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* -- Clean Button -- */
+
+.btn-clean {
+  position: relative;
+  padding: 1rem 2.5rem;
+  padding-left: 3rem;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-clean:before, .btn-clean:after {
+  content: '';
+  position: absolute;
+  transition: inherit;
+  z-index: -1;
+}
+
+.btn-clean:hover {
+  color: #000;
+  transition-delay: .5s;
+}
+
+.btn-clean:hover:before {
+  transition-delay: 0s;
+}
+
+.btn-clean:hover:after {
+  background: #fff;
+  transition-delay: .35s;
+}
+
+.from-left:before, .from-left:after {
+  top: 0;
+  width: 0;
+  height: 100%;
+}
+
+.from-left:before {
+  right: 0;
+  border: 1px solid #fff;
+  border-left: 0;
+  border-right: 0;
+}
+
+.from-left:after {
+  left: 0;
+}
+
+.from-left:hover:before, .from-left:hover:after {
+  width: 100%;
+}
+
