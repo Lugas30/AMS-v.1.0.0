@@ -30,8 +30,143 @@
 </head>
 
 <body>
+    <header>
+        <div id="site-header" class="site-header container">
+            <div class="site-header__nav">
+                <div class="site-header__mobile">
+                    <div id="mobileSidenav" class="mobile-sidenav">
+                        <div class="mobile-sidenav-header">
+                            <div class="site-header__nav-logo"><a href="#"><img class="site-header__nav-logo-img" src=""></a></div>
+                        </div>
+                        <div class="mobile-sidenav-list"><a class="mobile-sidenav-list-link" href="group.html">GROUP</a><a class="mobile-sidenav-list-link" href="bussiness.html">BUSSINESS</a><a class="mobile-sidenav-list-link" href="career.html">CAREER</a><a class="mobile-sidenav-list-link" href="store.html">STORE</a><a class="mobile-sidenav-list-link" href="contact.html">CONTACT</a></div>
+                        <div id="mob-footer" class="mobile-sidenav-footer">
+                            <div class="mobile-sidenav-footer__social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            <div class="mobile-sidenav-footer__language"><span>Language :</span><a href="#">IDN</a><span>|</span><a href="#">ENG</a></div>
+                            <div class="mobile-copyright">
+                                <p>PT. Aditya Mandiri Sejahtera © 2022</p>
+                            </div>
+                        </div>
+                    </div><button class="btn mobile-menu hamburger" id="hamburger-1" type="button" onclick="openMobNav()" data-bs-target="mobileSidenav" data-bs-toggle="collapse"><span class="line"></span><span class="line"></span><span class="line"></span></button>
+                </div>
+                <div class="site-header__nav-left">
+                    <ul class="site-header__nav-left-list">
+                        <li class="site-header__nav-left-item"><a href="#">eng\idn<br></a></li>
+                        <li class="site-header__nav-left-item"><a href="group.html">GROUP<br></a></li>
+                        <li class="site-header__nav-left-item"><a href="bussines.html">BUSSINESS<br></a></li>
+                    </ul>
+                </div>
+                <div class="site-header__nav-logo"><a href="index.html"><img class="site-header__nav-logo-img" src="assets/img/logo/ams-logo-color.svg"></a></div>
+                <div class="site-header__nav-right">
+                    <ul class="site-header__nav-right-list">
+                        <li class="site-header__nav-right-item"><a href="career.html">CAREER<br></a></li>
+                        <li class="site-header__nav-right-item"><a href="store.html">STORE<br></a></li>
+                        <li class="site-header__nav-right-item"><a href="contact.html">CONTACT<br></a></li>
+                    </ul>
+                </div>
+                <div class="mob-search"><i class="material-icons">search</i></div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="section-gutters">
+            <div class="breadcrumb-warp">
+                <ul class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">STORE</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-gutters">
+            <div class="section-store-search">
+                <div class="search-warp">
+                    <h1 class="section-title-career">Store Location</h1>
+                    <div class="search-input-career"><input type="text" class="search-input-field" placeholder="ENTER CITY LOCATION"><button class="btn btn-blue" type="button">OK</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-gutters">
+            <div class="row py-2">
+                <div class="col-md-12 d-md-flex justify-content-md-center filter-warp" id="myBtnContainer"><button class="btn btn-filter active" type="button" onclick="filterSelection(&#39;all&#39;)">All brand</button><button class="btn btn-filter" type="button" onclick="filterSelection(&#39;clcs&#39;)">Celcius</button><button class="btn btn-filter" type="button" onclick="filterSelection(&#39;msp&#39;)">Mississippiladies</button><button class="btn btn-filter" type="button" onclick="filterSelection(&#39;flies&#39;)">Flies</button><button class="btn btn-filter" type="button" onclick="filterSelection(&#39;qsl&#39;)">Queensland</button><button class="btn btn-filter" type="button" onclick="filterSelection(&#39;aeesha&#39;)">Aeesha</button></div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-6 col-md-3 store-loc clcs py-4"><a class="category-project-link" href="">
+                        <div class="detail-frame">
+                            <h1>CELCIUS CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc clcs py-4"><a class="category-project-link" href="">
+                        <div class="detail-frame">
+                            <h1>CELCIUS CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc msp py-4"><a class="category-project-link" href="">
+                        <div class="detail-frame">
+                            <h1>MISSISSIPPI CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc msp py-4"><a class="category-project-link" href="#">
+                        <div class="detail-frame">
+                            <h1>MISSISSIPPI CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc flies py-4"><a class="category-project-link" href="">
+                        <div class="detail-frame">
+                            <h1>FLIES CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc flies py-4"><a class="category-project-link" href="">
+                        <div class="detail-frame">
+                            <h1>FLIES CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc flies py-4"><a class="category-project-link" href="">
+                        <div class="detail-frame">
+                            <h1>FLIES CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc qsl py-4"><a class="category-project-link" href="#">
+                        <div class="detail-frame">
+                            <h1>QUEENSLAND CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc qsl py-4"><a class="category-project-link" href="#">
+                        <div class="detail-frame">
+                            <h1>QUEENSLAND CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc aeesha py-4"><a class="category-project-link" href="#">
+                        <div class="detail-frame">
+                            <h1>AEESHA CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc aeesha py-4"><a class="category-project-link" href="#">
+                        <div class="detail-frame">
+                            <h1>AEESHA CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-md-3 store-loc clcs py-4"><a class="category-project-link" href="#">
+                        <div class="detail-frame">
+                            <h1>CELCIUS CIBINONG</h1><span>Cibinong city mall Jl. Tegar Beriman 1, Cibinong Bogor, Upper Ground<br></span>
+                            <hr style="margin: 10px 0px;"><span><strong>Sunday - Saturday</strong><br></span><span>08.00 - 20.00&nbsp;<br></span><span>021-556978</span>
+                        </div>
+                    </a></div>
+            </div>
+        </div>
+    </main>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/filter.js"></script>
     <script src="assets/js/hamburger.js"></script>
     <script src="assets/js/header.js"></script>
     <script src="assets/js/history-timeline.js"></script>

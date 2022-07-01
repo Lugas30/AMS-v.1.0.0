@@ -1172,3 +1172,165 @@ ul.breadcrumb li a:hover {
   height: auto;
 }
 
+.contact-p {
+  font-size: 16px;
+  font-family: var(--font2);
+}
+
+/* -- Bussiness line -- */
+
+.bl-bgcolor {
+  background-color: var(--blue);
+}
+
+.bl-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.section-color-warp {
+  position: relative;
+  background-image: url(../../assets/img/blue-blank.png);
+}
+
+.section-clear-warp {
+  position: relative;
+  background-image: url(../../assets/img/white-blank.png);
+}
+
+.section-clear-content {
+  text-align: center;
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+/* -- Bussiness detail -- */
+
+.buss-banner {
+  position: relative;
+}
+
+.buss-banner img {
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  max-height: 400px;
+}
+
+.buss-banner-bar {
+  background-color: var(--grey-lt);
+}
+
+.buss-item-warp {
+  padding: 20px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.buss-banner-link {
+  font-size: 28px;
+  padding-right: 20px;
+  color: var(--grey-dk);
+}
+
+@media only screen and (max-width: 960px) {
+  .buss-banner-link {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+}
+
+.buss-banner-link:hover {
+  color: var(--grey-dk);
+}
+
+.buss-banner-medsos {
+  display: inline-block;
+}
+
+.buss-banner-medsos svg {
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  border-radius: 30%;
+  margin: 5px 2px;
+  color: #ffffff;
+  background-color: var(--grey-dk);
+}
+
+.buss-banner-medsos svg:hover {
+  color: #828282;
+}
+
+/* -- Store location -- */
+
+.section-store-search {
+  height: 402px;
+  vertical-align: middle;
+  background-image: url(../../assets/img/store.png);
+  background-size: cover;
+  position: relative;
+}
+
+/* -- filter -- */
+
+.show {
+  display: block;
+}
+
+.container {
+  /*margin-top: 20px;*/
+  overflow: hidden;
+}
+
+/* Style the buttons */
+
+.btn-filter {
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.25em;
+  color: var(--grey-dk);
+}
+
+.btn-filter:hover {
+  background-color: var(--grey-lt);
+}
+
+.btn-filter.active {
+  background-color: var(--blue);
+  color: white;
+}
+
+.detail-frame {
+  text-align: center;
+  color: #000000;
+}
+
+.detail-frame span {
+  font-size: 14px;
+}
+
+.detail-frame h1 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.store-loc {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
