@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/dropdown.css">
     <link rel="stylesheet" href="assets/css/hamburger.css">
     <link rel="stylesheet" href="assets/css/history-timeline.css">
     <link rel="stylesheet" href="assets/css/mobile-sidenav.css">
@@ -50,7 +51,10 @@
                 </div>
                 <div class="site-header__nav-left">
                     <ul class="site-header__nav-left-list">
-                        <li class="site-header__nav-left-item"><a href="#">eng\idn<br></a></li>
+                        <li class="site-header__nav-left-item">
+                            <div class="dropdown"><button class="btn dropbtn" type="button" onclick="myFunction()">ENG/IDN</button></div>
+                            <div id="myDropdown" class="dropdown-content"><span class="item">Language:</span><a class="item" href="#">ENG</a><a class="item" href="#">IDN</a></div>
+                        </li>
                         <li class="site-header__nav-left-item"><a href="group.html">GROUP<br></a></li>
                         <li class="site-header__nav-left-item"><a href="bussines.html">BUSSINESS<br></a></li>
                     </ul>
@@ -145,6 +149,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dropright.js"></script>
     <script src="assets/js/filter.js"></script>
     <script src="assets/js/hamburger.js"></script>
     <script src="assets/js/header.js"></script>

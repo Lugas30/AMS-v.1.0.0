@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/dropdown.css">
     <link rel="stylesheet" href="assets/css/hamburger.css">
     <link rel="stylesheet" href="assets/css/history-timeline.css">
     <link rel="stylesheet" href="assets/css/mobile-sidenav.css">
@@ -38,7 +39,7 @@
                         <div class="mobile-sidenav-header">
                             <div class="site-header__nav-logo"><a href="#"><img class="site-header__nav-logo-img" src=""></a></div>
                         </div>
-                        <div class="mobile-sidenav-list"><a class="mobile-sidenav-list-link" href="group.html">GROUP</a><a class="mobile-sidenav-list-link" href="bussiness.html">BUSSINESS</a><a class="mobile-sidenav-list-link" href="career.html">CAREER</a><a class="mobile-sidenav-list-link" href="store.html">STORE</a><a class="mobile-sidenav-list-link" href="contact.html">CONTACT</a></div>
+                        <div class="mobile-sidenav-list"><a class="mobile-sidenav-list-link" href="group.html"><span>GROUP</span><img src="assets/img/pic-menu1.png"></a><a class="mobile-sidenav-list-link" href="bussiness.html"><span>BUSSINESS</span><img src="assets/img/pic-menu2.png"></a><a class="mobile-sidenav-list-link" href="career.html"><span>CAREER</span><img src="assets/img/pic-menu3.png"></a><a class="mobile-sidenav-list-link" href="store.html"><span>STORE</span><img src="assets/img/pic-menu4.png"></a><a class="mobile-sidenav-list-link" href="contact.html"><span>CONTACT</span><img src="assets/img/pic-menu5.png"></a></div>
                         <div id="mob-footer" class="mobile-sidenav-footer">
                             <div class="mobile-sidenav-footer__social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                             <div class="mobile-sidenav-footer__language"><span>Language :</span><a href="#">IDN</a><span>|</span><a href="#">ENG</a></div>
@@ -50,7 +51,10 @@
                 </div>
                 <div class="site-header__nav-left">
                     <ul class="site-header__nav-left-list">
-                        <li class="site-header__nav-left-item"><a href="#">eng\idn<br></a></li>
+                        <li class="site-header__nav-left-item">
+                            <div class="dropdown"><button class="btn dropbtn" type="button" onclick="myFunction()">ENG/IDN</button></div>
+                            <div id="myDropdown" class="dropdown-content"><span class="item">Language:</span><a class="item" href="#">ENG</a><a class="item" href="#">IDN</a></div>
+                        </li>
                         <li class="site-header__nav-left-item"><a href="group.html">GROUP<br></a></li>
                         <li class="site-header__nav-left-item"><a href="bussines.html">BUSSINESS<br></a></li>
                     </ul>
@@ -167,6 +171,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dropright.js"></script>
     <script src="assets/js/filter.js"></script>
     <script src="assets/js/hamburger.js"></script>
     <script src="assets/js/header.js"></script>

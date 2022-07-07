@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/dropdown.css">
     <link rel="stylesheet" href="assets/css/hamburger.css">
     <link rel="stylesheet" href="assets/css/history-timeline.css">
     <link rel="stylesheet" href="assets/css/mobile-sidenav.css">
@@ -50,17 +51,20 @@
                 </div>
                 <div class="site-header__nav-left">
                     <ul class="site-header__nav-left-list">
-                        <li class="site-header__nav-left-item"><a href="#">eng\idn<br></a></li>
-                        <li class="site-header__nav-left-item"><a href="#">GROUP<br></a></li>
-                        <li class="site-header__nav-left-item"><a href="#">BUSSINESS<br></a></li>
+                        <li class="site-header__nav-left-item">
+                            <div class="dropdown"><button class="btn dropbtn" type="button" onclick="myFunction()">ENG/IDN</button></div>
+                            <div id="myDropdown" class="dropdown-content"><span class="item">Language:</span><a class="item" href="#">ENG</a><a class="item" href="#">IDN</a></div>
+                        </li>
+                        <li class="site-header__nav-left-item"><a href="group.html">GROUP<br></a></li>
+                        <li class="site-header__nav-left-item"><a href="bussines.html">BUSSINESS<br></a></li>
                     </ul>
                 </div>
                 <div class="site-header__nav-logo"><a href="index.html"><img class="site-header__nav-logo-img" src="assets/img/logo/ams-logo-color.svg"></a></div>
                 <div class="site-header__nav-right">
                     <ul class="site-header__nav-right-list">
-                        <li class="site-header__nav-right-item"><a href="#">CAREER<br></a></li>
-                        <li class="site-header__nav-right-item"><a href="#">STORE<br></a></li>
-                        <li class="site-header__nav-right-item"><a href="#">CONTACT<br></a></li>
+                        <li class="site-header__nav-right-item"><a href="career.html">CAREER<br></a></li>
+                        <li class="site-header__nav-right-item"><a href="store.html">STORE<br></a></li>
+                        <li class="site-header__nav-right-item"><a href="contact.html">CONTACT<br></a></li>
                     </ul>
                 </div>
                 <div class="mob-search"><i class="material-icons">search</i></div>
@@ -81,7 +85,7 @@
             <div class="section-clean">
                 <div class="section-clean-content py-5">
                     <h2>About us<br></h2>
-                    <p class="py-4">Lörem ipsum depykrore. Megamatisk mobilzombie kase uckig. Lunchdisco monologi eller sasam: inte låras. Twittra tesade. Sovevis antisk utan sasam. Kvasir miplasm deliga plaligt bilmålvakt.&nbsp;<span style="font-weight: normal !important; font-style: normal !important;">Twittra tesade. Sovevis antisk utan sasam. Kvasir miplasm deliga plaligt bilmålvakt.&nbsp;</span><br></p>
+                    <p class="py-4">Kami adalah perusahaan yang dibangun di atas integritas, kekerabatan dan profesionalisme. PT. Aditya Mandiri Sejahtera adalah perusahaan yang bergerak di bidang retail fashion ready to wear.<br></p>
                 </div>
             </div>
         </div>
@@ -91,7 +95,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 section-right-warp">
                     <div class="section-right-content py-5">
                         <h2>How we do bussiness<br></h2>
-                        <p class="py-4">Lörem ipsum depykrore. Megamatisk mobilzombie kase uckig. Lunchdisco monologi eller sasam: inte låras. Twittra tesade. Sovevis antisk utan sasam. Kvasir miplasm deliga plaligt bilmålvakt.&nbsp;<span style="font-weight: normal !important; font-style: normal !important;">Twittra tesade. Sovevis antisk utan sasam. Kvasir miplasm deliga plaligt bilmålvakt.&nbsp;</span><br></p>
+                        <p class="py-4">Bisnis PT. Aditya Mandiri Sejahtera dikembangkan menggunakan metode integrasi secara vertikal (Vertical Integrated) dimana seluruh pengembangan produk dilakukan secara internal mulai dari desain, manufaktur, distribusi sampai penjualan ke store yang dikelola sendiri oleh perusahaan atau di bawah lisensi perusahaan.&nbsp;<br></p>
                     </div>
                 </div>
             </div>
@@ -120,9 +124,9 @@
             <div class="section-image"><img class="img-section bw-effect" src="assets/img/vision.png">
                 <div class="section-image-content py-5">
                     <h3>Vision<br></h3>
-                    <p class="py-4">Lörem ipsum depykrore. Megamatisk mobilzombie kase uckig. Lunchdisco monologi eller sasam: inte låras. Twittra tesade. Sovevis antisk utan sasam. Kvasir miplasm deliga plaligt bilmålvakt.&nbsp;<br></p>
+                    <p class="py-4">Menjadi fashion retail nomor satu di Indonesia yang dapat melayani pelanggan di berbagai tingkat daerah, dengan proses integrasi vertikal dari desain sampai konsumen akhir, dimana orang-orang kami dapat tumbuh dan mengekpresikan diri mereka, tidak terbatas dan di lingkungan yang ramah.<br></p>
                     <h3>Mission<br></h3>
-                    <p class="py-4">Lörem ipsum depykrore. Megamatisk mobilzombie kase uckig. Lunchdisco monologi eller sasam: inte låras. Twittra tesade. Sovevis antisk utan sasam. Kvasir miplasm deliga plaligt bilmålvakt.&nbsp;<br></p>
+                    <p class="py-4">• Meningkatkan operasional perusahaan agar menjadi semakin efisien dan pertumbuhan profibilitas.<br>• Senantiasa berkarya sebagai salah satu fashion retail di Indonesia, untuk menyediakan produk fashion berkualitas.<br>• Membawa tren fashion terkini ke pasar, untuk meningkatkan pertumbuhan industri fashion Indonesia.<br></p>
                 </div>
             </div>
         </div>
@@ -141,6 +145,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dropright.js"></script>
     <script src="assets/js/filter.js"></script>
     <script src="assets/js/hamburger.js"></script>
     <script src="assets/js/header.js"></script>

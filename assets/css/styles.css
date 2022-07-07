@@ -245,7 +245,7 @@ h4 {
 }
 
 .site-header__nav-left-item a {
-  color: #000;
+  color: var(--grey-dk);
   text-decoration: none;
 }
 
@@ -1333,4 +1333,6 @@ ul.breadcrumb li a:hover {
 .show {
   display: block;
 }
+
+/* -- Search overlay -- */
 
