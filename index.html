@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/button.css">
     <link rel="stylesheet" href="assets/css/dropdown.css">
@@ -32,8 +33,8 @@
 
 <body>
     <header>
-        <div id="site-header" class="site-header container">
-            <div class="site-header__nav">
+        <div id="site-header" class="site-header">
+            <div class="site-header__nav container">
                 <div class="site-header__mobile">
                     <div id="mobileSidenav" class="mobile-sidenav">
                         <div class="mobile-sidenav-header">
@@ -56,7 +57,7 @@
                             <div id="myDropdown" class="dropdown-content"><span class="item">Language:</span><a class="item" href="#">ENG</a><a class="item" href="#">IDN</a></div>
                         </li>
                         <li class="site-header__nav-left-item"><a href="group.html">GROUP<br></a></li>
-                        <li class="site-header__nav-left-item"><a href="bussines.html">BUSSINESS<br></a></li>
+                        <li class="site-header__nav-left-item"><a href="bussiness.html">BUSSINESS<br></a></li>
                     </ul>
                 </div>
                 <div class="site-header__nav-logo"><a href="index.html"><img class="site-header__nav-logo-img" src="assets/img/logo/ams-logo-color.svg"></a></div>
@@ -64,37 +65,37 @@
                     <ul class="site-header__nav-right-list">
                         <li class="site-header__nav-right-item"><a href="career.html">CAREER<br></a></li>
                         <li class="site-header__nav-right-item"><a href="store.html">STORE<br></a></li>
-                        <li class="site-header__nav-right-item"><a href="contact.html">CONTACT<br></a></li>
+                        <li class="site-header__nav-right-item"><a href="contact-us.html">CONTACT<br></a></li>
                     </ul>
                 </div>
-                <div class="mob-search"><i class="material-icons">search</i></div>
+                <div class="mob-search"><a><i class="material-icons" type="button" data-bs-toggle="modal" data-bs-target="#search-modal">search</i></a></div>
             </div>
         </div>
     </header>
     <main class="container">
         <div id="custCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="16000"><img src="assets/img/carousel/banner1.png">
+                <div class="carousel-item active" data-bs-interval="16000"><img src="assets/img/carousel/banner1.png" loading="lazy" alt="banner slider brand">
                     <div class="caption-warp">
                         <h1 class="caption-hero">Mississippi</h1><a class="btn btn-clean from-left" role="button"><span>DISCOVER</span></a>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="16000"><img src="assets/img/carousel/banner1.png">
+                <div class="carousel-item" data-bs-interval="16000"><img src="assets/img/carousel/banner1.png" loading="lazy" alt="banner slider brand">
                     <div class="caption-warp">
                         <h1 class="caption-hero">Celcius</h1><a class="btn btn-clean from-left" role="button"><span>DISCOVER</span></a>
                     </div>
                 </div>
             </div><a class="carousel-control-prev" href="#custCarousel" data-bs-slide="prev"><span><i class="la la-angle-left"></i></span></a><a class="carousel-control-next" href="#custCarousel" data-bs-slide="next"><span><i class="la la-angle-right"></i></span></a>
             <ul class="carousel-indicatorsx list-inline">
-                <li class="list-inline-item"><a id="carousel-selector-2" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/1.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-1" class="bg-white selected" href="#" data-bs-slide-to="1" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/2.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-3" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/3.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-4" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/4.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-5" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/5.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-6" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/6.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-7" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/7.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-8" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/8.png"></a></li>
-                <li class="list-inline-item"><a id="carousel-selector-9" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/9.png"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-2" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/1.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-1" class="bg-white selected" href="#" data-bs-slide-to="1" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/2.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-3" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/3.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-4" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/4.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-5" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/5.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-6" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/6.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-7" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/7.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-8" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/8.png" alt="logo brand" loading="lazy"></a></li>
+                <li class="list-inline-item"><a id="carousel-selector-9" class="bg-white selected" href="#" data-bs-slide-to="0" data-bs-target="#custCarousel"><img class="img-fluid" src="assets/img/carousel/9.png" alt="logo brand" loading="lazy"></a></li>
             </ul>
         </div>
         <div class="space-down"><i class="la la-angle-down"></i></div>
@@ -102,35 +103,35 @@
             <div class="grid-container"><a class="items-block item1" href="#">
                     <div class="grid-text"><span class="grid-title gt-up">Brand</span>
                         <h3 class="grid-title gt-down">Mississippi Ladies<br></h3>
-                    </div><img class="item-img" src="assets/img/grid/grid1.png">
-                </a><a class="items-block item2" href="#"><img class="item-img" src="assets/img/grid/grid2.png">
+                    </div><img class="item-img" src="assets/img/grid/grid1.png" loading="lazy">
+                </a><a class="items-block item2" href="#"><img class="item-img" src="assets/img/grid/grid2.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-up">Career</span>
                         <h3 class="grid-title gt-down">Growth &amp; Development<br></h3>
                     </div>
-                </a><a class="items-block item3" href="#"><img class="item-img" src="assets/img/grid/blur2.png">
+                </a><a class="items-block item3" href="#"><img class="item-img" src="assets/img/grid/blur2.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-mid">Career</span></div>
-                </a><a class="items-block item4" href="#"><img class="item-img" src="assets/img/grid/grid4.png">
+                </a><a class="items-block item4" href="#"><img class="item-img" src="assets/img/grid/grid4.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-mid">Store</span></div>
-                </a><a class="items-block item5" href="#"><img class="item-img" src="assets/img/grid/grid5.png">
+                </a><a class="items-block item5" href="#"><img class="item-img" src="assets/img/grid/grid5.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-up">Group</span>
                         <h3 class="grid-title gt-down">Vision &amp; Mission<br></h3>
                     </div>
                 </a></div>
-            <div class="grid-container"><a class="items-block item10" href="#"><img class="item-img" src="assets/img/grid/grid10.png">
+            <div class="grid-container"><a class="items-block item10" href="#"><img class="item-img" src="assets/img/grid/grid10.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-up">Group</span>
                         <h3 class="grid-title gt-down">How we do bussines<br></h3>
                     </div>
-                </a><a class="items-block item6" href="#"><img class="item-img" src="assets/img/grid/grid6.png">
+                </a><a class="items-block item6" href="#"><img class="item-img" src="assets/img/grid/grid6.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-mid">Bussiness</span></div>
-                </a><a class="items-block item7" href="#"><img class="item-img" src="assets/img/grid/grid7.png">
+                </a><a class="items-block item7" href="#"><img class="item-img" src="assets/img/grid/grid7.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-up">Career</span>
                         <h3 class="grid-title gt-down">Why join us<br></h3>
                     </div>
-                </a><a class="items-block item8" href="#"><img class="item-img" src="assets/img/grid/grid8.png">
+                </a><a class="items-block item8" href="#"><img class="item-img" src="assets/img/grid/grid8.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-up">Group</span>
                         <h3 class="grid-title gt-down">Corporate Culture Value<br></h3>
                     </div>
-                </a><a class="items-block item9" href="#"><img class="item-img" src="assets/img/grid/blur1.png">
+                </a><a class="items-block item9" href="#"><img class="item-img" src="assets/img/grid/blur1.png" loading="lazy">
                     <div class="grid-text"><span class="grid-title gt-mid">GROUP</span></div>
                 </a></div>
         </div>
@@ -153,8 +154,29 @@
                 </div>
             </div>
         </div>
-        <div class="search"><a class="btn-search-expand" href="#"><i class="material-icons">search</i></a>
-            <div class="social-trigger"><a href="#"><i class="material-icons">share</i></a></div>
+        <div class="search"><a class="btn-search-expand" type="button" data-bs-toggle="modal" data-bs-target="#search-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path>
+                </svg></a>
+            <div class="social-trigger"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                    </svg></a></div>
+            <div class="social-trigger"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                    </svg></a></div>
+        </div>
+        <div id="search-modal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="text-end justify-content-sm-end search-close-warp pb-5"><a class="btn-close-src" type="button" data-bs-dismiss="modal"><i class="la la-close"></i></a></div>
+                        <div class="search-modal-input-warp"><input type="text" placeholder="Search..."><button class="btn btn-lg fs-2" type="button"><i class="icon-magnifier text-white"></i></button></div>
+                        <div class="search-modal-warp"><a class="search-modal-link" href="#">CAREER</a><a class="search-modal-link" href="#">BUSSINESS</a><a class="search-modal-link" href="#">CONTACT</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="section-footer container">
